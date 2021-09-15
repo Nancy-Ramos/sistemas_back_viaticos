@@ -1,0 +1,24 @@
+POST  http://localhost:5000/Index
+Content-Type: application/json
+
+{
+    "Nombre": "JOSE ESAU MARTINEZ",
+    "Email": "martinez117esau@gmail.com",
+    "Password": "Mace930111"
+}
+
+
+###
+GET http://localhost:5000/Corte/all
+
+###
+GET http://localhost:5000/Corte?id=2&usuario=1
+
+###
+POST http://localhost:5000/Corte
+Content-Type: application/json
+
+{
+    "folio": "RCA-0001",
+    "usuario": 1
+}

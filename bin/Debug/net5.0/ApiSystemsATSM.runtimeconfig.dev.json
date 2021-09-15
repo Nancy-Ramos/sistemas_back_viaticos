@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/esau/.dotnet/store/|arch|/|tfm|",
+      "/home/esau/.nuget/packages"
+    ]
+  }
+}
